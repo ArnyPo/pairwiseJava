@@ -1,9 +1,9 @@
-package zapoctovy_program;
+package cz.cuni.mff.polakar;
 
 public class Match {
     int score;
     Direction dir;
-    int gapLen;
+    int gapLen; // TODO používám to vůbec????
 
     public Match(int score){
         this.score = score;
@@ -25,5 +25,8 @@ public class Match {
         score = dir.getScore();
         this.gapLen = gapLen;
     }
-
+    @Override
+    public String toString(){
+        return score + " " + dir.toString() + " " + gapLen;
+    }
 }

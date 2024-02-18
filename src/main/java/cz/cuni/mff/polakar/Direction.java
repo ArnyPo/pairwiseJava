@@ -1,9 +1,6 @@
-package zapoctovy_program;
+package cz.cuni.mff.polakar;
 
 public class Direction {
-    /**
-     *
-     */
     int i;
     int j;
     private int score;
@@ -18,7 +15,7 @@ public class Direction {
         score = Integer.MIN_VALUE;
     }
     Tuple<Integer,Integer> getDirTup(){
-        return new Tuple<Integer,Integer>(i,j);
+        return new Tuple<>(i,j);
     }
     int getScore(){
         return score;
@@ -31,5 +28,10 @@ public class Direction {
 
     boolean equals(int i, int j){
         return this.i == i && this.j==j;
+    }
+
+    @Override
+    public String toString() {
+        return "(" + i + "," + j + "," + score + ")";
     }
 }

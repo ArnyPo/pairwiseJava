@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Mon 18 Sep 2023 23:27:14
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20230918-232711-0140-54365006-p1m.asequence
+#    -bsequence emboss_needle-I20230918-232711-0140-54365006-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.0
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAH2219674.1
+# 2: TX1B3_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.0
+#
+# Length: 124
+# Identity:     111/124 (89.5%)
+# Similarity:   120/124 (96.8%)
+# Gaps:           0/124 ( 0.0%)
+# Score: 574.0
+# 
+#
+#=======================================
+
+CAH2219674.1       1 MSFIPGQPVTAVVQRVEIHKLCQGENLILGFSIGGGIDQDPAQNPFSEDK     50
+                     ||:||||||||||||||||||.|||||||||||||||||||:||||||||
+TX1B3_HUMAN        1 MSYIPGQPVTAVVQRVEIHKLRQGENLILGFSIGGGIDQDPSQNPFSEDK     50
+
+CAH2219674.1      51 TDKGIYVTRVSEGGPAEVAGLQMGDKIMQVNGWDMTMVTHDQARKRLTKK    100
+                     |||||||||||||||||:||||:||||||||||||||||||||||||||:
+TX1B3_HUMAN       51 TDKGIYVTRVSEGGPAEIAGLQIGDKIMQVNGWDMTMVTHDQARKRLTKR    100
+
+CAH2219674.1     101 NEEVVRLLVTRKSLQEAVRHSMRQ    124
+                     :||||||||||:|||:||:.||..
+TX1B3_HUMAN      101 SEEVVRLLVTRQSLQKAVQQSMLS    124
+
+
+#---------------------------------------
+#---------------------------------------

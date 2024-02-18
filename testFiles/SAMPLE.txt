@@ -1,0 +1,3 @@
+Needleman-Wunsh:
+-r alignment/testFiles/prot1.fna -c alignment/testFiles/prot2.fna -t p -f nw -m blosum62 - porovnat s answers/NW1.txt
+-r alignment/testFiles/nu6.fna -c alignment/testFiles/nu7.fna -t n -f nw -m defaultNucleotide - TODO

@@ -1,0 +1,79 @@
+# /fasta/bin/ssearch36 -m 9i ssearch2seq-I20230919-143551-0238-60874328-p1m.asequence ssearch2seq-I20230919-143551-0238-60874328-p1m.bsequence -p -s BL50 -f -1 -g 0 -m 0 @:1- -m "F11 ssearch2seq-I20230919-143551-0238-60874328-p1m.output.lav"
+SSEARCH performs a Smith-Waterman search
+ version 36.3.8h May, 2020
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ssearch2seq-I20230919-143551-0238-60874328-p1m.asequence
+  1>>>sp|O14933.4|UB2L6_HUMAN RecName: Full=Ubiquitin/ISG15-conjugating enzyme E2 L6; AltName: Full=E2 ubiquitin-conjugating enzyme L6; AltName: Full=Retinoic acid-induced gene B protein; Short=RIG-B; AltName: Full=UbcH8; AltName: Full=Ubiquitin carrier protein L6; AltName: Full=Ubiquitin-protein ligase L6 - 153 aa
+Library: ssearch2seq-I20230919-143551-0238-60874328-p1m.bsequence
+      333 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.0754;  K=5.533e+10
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL50 matrix (15:-5), open/ext: -1/0
+ Scan time:  0.080
+
+The best scores are:                       s-w bits E(1) %_id  %_sim  alen
+NP_001368789.1 chemokine XC recepto ( 333)  485 17.1    0.31 0.205 0.249  370
+
+>>>sp|O14933.4|UB2L6_HUMAN, 153 aa vs ssearch2seq-I20230919-143551-0238-60874328-p1m.bsequence library
+
+>>NP_001368789.1 chemokine XC receptor 1 [Homo sapiens]   (333 aa)
+ s-w opt: 485  Z-score: 53.2  bits: 17.1 E(1): 0.31
+Smith-Waterman score: 485; 20.5% identity (24.9% similar) in 370 aa overlap (5-153:1-314)
+
+               10                    20                            
+sp|O14 MMASMRVVKEL-----E-------DLQKKPPP----------------Y----LRNLS--
+           :    :      :       :::..  :                :    :  ::  
+NP_001     M----E-SSGNPESTTFFYYDLQSQ--PCENQAWVFATLATTVLYCLVFL--LSLV
+                        10        20          30        40         
+
+          30                          40                       50  
+sp|O14 -SDDAN--VLVW----H-AL--L---------LPDQ-------P----PYH----LKA-F
+            :  :: :    . .:  :         : :        :    :::    : . :
+NP_001 G----NSLVL-WVLVKYESLESLTNIFILNLCLSD-LVFACLLPVWISPYHWGWVL-GDF
+            50         60        70         80        90        100
+
+                       60                                          
+sp|O14 -----NLRISF----PPEYP---F--------K------P------P---------M---
+            :. : :       :    :        .      :      :         :   
+NP_001 LCKLLNM-I-FSISL---Y-SSIFFLTIMTIHRYLSVVSPLSTLRVPTLRCRVLVTMAVW
+                110           120       130       140       150    
+
+           70                 80                                   
+sp|O14 ---IKFT----TKIYHPNV-----D--E-----------N-------GQI---C------
+          : ..    : :.: .:     :  :           :       : :   :      
+NP_001 VASI-LSSILDT-IFH-KVLSSGCDYSELTWYLTSVYQHNLFFLLSLG-IILFCYVEILR
+           160         170       180       190        200       210
+
+                          90                        100            
+sp|O14 ---------------LPI--I------SSENWK-PC---T-------KT-----C----Q
+                      : :  :      :   :  :    :       .:     :    :
+NP_001 TLFRSRSKRRHRTVKL-IFAIVVAYFLS---W-GP-YNFTLFLQTLFRTQIIRSCEAKQQ
+              220        230           240        250       260    
+
+            110        120       130                140            
+sp|O14 VLE-ALNVLV-NRPNIREPLRMDLADLLTQ---NPE-L--F---RKNAEEF-T-----LR
+        :: ::  :.  : :        ::  ...   ::  :  :    :    : :     ::
+NP_001 -LEYAL--LIC-R-N--------LA--FSHCCFNP-VLYVFVGV-K----FRTHLKHVLR
+             270                   280        290            300   
+
+            150                         
+sp|O14 -F---GVDR---PS                   
+        :      :   ::                   
+NP_001 QFWFC---RLQAPSPASIPHSPGAFAYEGASFY
+              310       320       330   
+
+
+>>>///
+
+153 residues in 1 query   sequences
+333 residues in 1 library sequences
+ Tcomplib [36.3.8h May, 2020] (96 proc in memory [0G])
+ start: Tue Sep 19 13:36:06 2023 done: Tue Sep 19 13:36:06 2023
+ Total Scan time:  0.080 Total Display time:  0.010
+
+Function used was SSEARCH [36.3.8h May, 2020]

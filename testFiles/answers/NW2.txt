@@ -1,0 +1,1369 @@
+########################################
+# Program: needle
+# Rundate: Mon 18 Sep 2023 22:01:04
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20230918-220058-0865-95270538-p1m.asequence
+#    -bsequence emboss_needle-I20230918-220058-0865-95270538-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.0
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LR732138.1
+# 2: JAHYSF010000604.1
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.0
+#
+# Length: 16595
+# Identity:    2482/16595 (15.0%)
+# Similarity:  2482/16595 (15.0%)
+# Gaps:       13762/16595 (82.9%)
+# Score: 6186.0
+# 
+#
+#=======================================
+
+LR732138.1         1 ----------------------------CTCCTCAGAC------------     10
+                                                 |..|||||.|            
+JAHYSF0100006      1 CCCACCGTCATCGCCACCCCCATCACTACCACTCAGCCAGGCGCTGCATA     50
+
+LR732138.1        11 ------------------------------------------GCCGA---     15
+                                                               |||||   
+JAHYSF0100006     51 TGGCGATACCTAAGGCCCTGACCTCCGGTGCCAATGAGTATTGCCGAATG    100
+
+LR732138.1        16 -----------GAT------------------------------------     18
+                                |||                                    
+JAHYSF0100006    101 GCGCCTGTGGCGATCGGTACGATTTTTGTTAAGTGTTAGAACGTTGGTAT    150
+
+LR732138.1        19 ---------------GC-------GGGTCATGGCGCC-------------     33
+                                    ||       ||.||.|||.|||             
+JAHYSF0100006    151 TCTCATTTTTTATGGGCTACGGTAGGTTCCTGGAGCCGTTTTCACAGACC    200
+
+LR732138.1        34 -------CCGAATCCT-----------------CCTCCTGC-------TG     52
+                            .||..||||                 |||||.||       .|
+JAHYSF0100006    201 TTCTTGTACGTTTCCTCGTCGCGGGTGACGACGCCTCCGGCAAACATGAG    250
+
+LR732138.1        53 CT--------------CTCGGGGACC------------------------     64
+                     ||              |||||.||||                        
+JAHYSF0100006    251 CTTATCCAGACGTTTACTCGGAGACCACCACCGTCAAATCAAGGCGAGAC    300
+
+LR732138.1        65 --CTGTCCCTG--ACC----GAGACCTG---GGCC---------------     88
+                       |..|||.||  |||    ||||..||   ||||               
+JAHYSF0100006    301 TACCCTCCATGTCACCCGAGGAGAGGTGGACGGCCGCAGCGTAAAGCTCC    350
+
+LR732138.1        89 -----------------------------------------GGTGAG---     94
+                                                              ||||||   
+JAHYSF0100006    351 ACATTTGGAGCTTAGGCGGCACGTCAAGAACGGTTACACGGGGTGAGAGC    400
+
+LR732138.1        95 --------------------------------------------------     94
+                                                                       
+JAHYSF0100006    401 GCGTGATCTCCCACACAGCCGCGCTTGAATCCGTGGATGTGGTTTTTTTT    450
+
+LR732138.1        95 ---------TGCGG-GGTCGGGAG-----------------GGAAATG--    115
+                              ||||| |.|||.|||                 || ||||  
+JAHYSF0100006    451 TGCTTCGACTGCGGCGATCGCGAGTCGCTTACCAACATGAAGG-AATGGG    499
+
+LR732138.1       116 --------------------------------------------------    115
+                                                                       
+JAHYSF0100006    500 TACGCGATACTCTTGACTTTGCTCACGACGACCCGACATTTGCTCAACGA    549
+
+LR732138.1       116 ---------------------------GCCT---------CTGCGG----    125
+                                                ||||         ||||||    
+JAHYSF0100006    550 GTACGGTGGTACATTGTCGTTACCAACGCCTTGGCCGACGCTGCGGTGAC    599
+
+LR732138.1       126 --------------------------------------------------    125
+                                                                       
+JAHYSF0100006    600 CCCTGAGGAGTGCACCGCTCTAGCCCAGTCGCTAGGCGTCACCATGTTCC    649
+
+LR732138.1       126 -------GGAGGAACGA------------GGGGAC--CGC----------    144
+                            |||||.||||            |..|||  |||          
+JAHYSF0100006    650 GCTTTCCGGAGGGACGACGCATCGCCGATGTCGACTACGCCTTCAACTTC    699
+
+LR732138.1       145 -------------------AGG----CGGGGGCGCAGG---------GTC    162
+                                        |||    ||.|.|||||||         |||
+JAHYSF0100006    700 GCTGTGAAACAGCACGCCAAGGCACTCGAGAGCGCAGGACGACTCGAGTC    749
+
+LR732138.1       163 ------------------------CGG-----------------------    165
+                                             |||                       
+JAHYSF0100006    750 CTCTCCTTGCAGTGCTCGCGACATCGGCCTTTCGTTCATCCCTTTTTTGA    799
+
+LR732138.1       166 --------------------------------------------------    165
+                                                                       
+JAHYSF0100006    800 GGTCGTCGCAGCATTAGCTACCGTTTTGAAAACTATTAACCTGTTTTTAT    849
+
+LR732138.1       166 ---------------------------------GGAGCCGCGC-------    175
+                                                      ||||..||||       
+JAHYSF0100006    850 TCTACAATCATTTTGGTTTCTGAAAGGAACTTTGGAGAGGCGCCGTCCAG    899
+
+LR732138.1       176 --------------------------------------------------    175
+                                                                       
+JAHYSF0100006    900 CCAACTAGGGAGCTGACTTGGTGGCTTTGCATGTGGAATGCAGCATAGGA    949
+
+LR732138.1       176 --------------------------------GGGG----AGGAGG----    185
+                                                     ||||    ||||||    
+JAHYSF0100006    950 GGGCCCTTAACCCGACGTCGATCTCGTGTGTAGGGGATGTAGGAGGGCAA    999
+
+LR732138.1       186 -GTCG--------------GGC---------------GA-----------    194
+                      ||||              |||               ||           
+JAHYSF0100006   1000 CGTCGAAGTGCAGACAATTGGCCCCACACGCATAACTGAAATAATAGACG   1049
+
+LR732138.1       195 ---------------GTCTCAG-------------------CCTCT----    206
+                                    ||.||||                   |||||    
+JAHYSF0100006   1050 TTTCACTGAGAGGAGGTTTCAGGCATTGCTTGAAGCGTTATCCTCTGTGT   1099
+
+LR732138.1       207 --------------------------------------------------    206
+                                                                       
+JAHYSF0100006   1100 GAGGTAGATTAGTGCTGGAGACGCAGCTCTACTGTGGGGTTTGTGGGGTA   1149
+
+LR732138.1       207 ----------------------------------------------CCTC    210
+                                                                   ||||
+JAHYSF0100006   1150 CGAACGTAAAGTCGACGTGATTAATGAACACTTTGTGATTAATGGGCCTC   1199
+
+LR732138.1       211 G-------------------------------------------------    211
+                     |                                                 
+JAHYSF0100006   1200 GGACCTCAAAAAATCCGCATTCCGCCACCCCGAGAGGGGGACGTTCCCTG   1249
+
+LR732138.1       212 ----------CCCCCAGG---CTC--------------------------    222
+                               |||.||||   |||                          
+JAHYSF0100006   1250 CGTCTACCGCCCCTCAGGACCCTCTCGATGTCACTCGACTCGAGTTCATG   1299
+
+LR732138.1       223 --------------------------------------------------    222
+                                                                       
+JAHYSF0100006   1300 TGACGCGTCTTGATCGTGTCCGTCGTTCTGCGGACAGAGATTTGGTAACC   1349
+
+LR732138.1       223 --------CCACTCCTTG--------------------------------    232
+                             |.||||||||                                
+JAHYSF0100006   1350 GCTATCGTCGACTCCTTGACGGCCAGGGAGCTAGAATGCAACGTGGAGGT   1399
+
+LR732138.1       233 -----------AGGTATTTC--CAC-------------------------    244
+                                |.|||.|||  |||                         
+JAHYSF0100006   1400 GGCTGCCGACTACGTAGTTCAGCACCAGCGAAGCAACCCATGGCTGGCTG   1449
+
+LR732138.1       245 ----------------------------------ACCGC-----------    249
+                                                       |||||           
+JAHYSF0100006   1450 AGCCAGAAGGTCTTCGTCTGCGCTACTACGTCGAACCGCTGGTCGGAGAG   1499
+
+LR732138.1       250 --------------CGTGTCC-CGGCCC----------------------    262
+                                   |.|.||| ||||.|                      
+JAHYSF0100006   1500 GAGTTACGCGGATACATCTCCGCGGCTCTTGCTGAGGTGCACACATACAA   1549
+
+LR732138.1       263 ------------------GGCCGCC------GGGA---------------    273
+                                       ||||.||      ||||               
+JAHYSF0100006   1550 GCGTACTTGGTGCAAGGTGGCCACCTGCCCGGGGAGTTGTAGCTACGCCC   1599
+
+LR732138.1       274 ------------------GCCCTGGTAT----------------------    283
+                                       ||.|||.|||                      
+JAHYSF0100006   1600 ACCACCCATTGGAGAAACGCGCTGCTATTGCCCCCTGCGCCCGTGAGTGC   1649
+
+LR732138.1       284 ------------------CTCGAA--------------------------    289
+                                       ||||.|                          
+JAHYSF0100006   1650 CCTGTGCGGCAGTGCCCGCTCGGAGTGTTGGCTGAACTGGAAGTACGTCG   1699
+
+LR732138.1       290 --------GTCGGCTACG--------------------------------    299
+                             |||.||||||                                
+JAHYSF0100006   1700 CCGCAACGGTCAGCTACGGCTGAGTGCCCCGCTTTCAGCAGATGCGCGGA   1749
+
+LR732138.1       300 ------TGG-----------------------------------------    302
+                           |||                                         
+JAHYSF0100006   1750 AGGAGTTGGTGCAGTCAGTGGCCGTTCGCAATCAAGCGGCGCAGTCCCAC   1799
+
+LR732138.1       303 --------------ACGACAC-----------------GCAGTTCGT---    318
+                                   |||.|||                 |.|||.|||   
+JAHYSF0100006   1800 CGGAGCTGGCTGGAACGCCACGAGCTCTCGTTCAAGGGGGAGTCCGTAGG   1849
+
+LR732138.1       319 -GCG-----------GTTCGACAG-------------CGACG--------    335
+                      |||           |||||| ||             |||||        
+JAHYSF0100006   1850 AGCGCCGCTGACCTCGTTCGA-AGAGGTTGTCCATCCCGACGACCTGCTT   1898
+
+LR732138.1       336 --------------------------------------------------    335
+                                                                       
+JAHYSF0100006   1899 CAGCTTGCATCACTATGTTCCAGTAAGGGTATAGACCATTACTTTTGCCC   1948
+
+LR732138.1       336 ----------------------------------------------CCGA    339
+                                                                   |||.
+JAHYSF0100006   1949 GAACGCGCATTCTCCTCGTGAGCTGCTCACCTCGCACTTCAACACTCCGC   1998
+
+LR732138.1       340 GA------GTC------------------CGAGGATG---GAGCCGCG--    360
+                     ||      |||                  ||||||||   |.||||||  
+JAHYSF0100006   1999 GACGTGCCGTCCTCTGTCCGCTTTTATCGCGAGGATGTGCGGGCCGCGAT   2048
+
+LR732138.1       361 -GGCGC------------------------CGTGGATAGAGCAGGAGGGG    385
+                      |.|||                        || ||||    .|||.||||
+JAHYSF0100006   2049 TGTCGCTACCGATCCATCTTTGCTCATTCTCG-GGAT----GAGGTGGGG   2093
+
+LR732138.1       386 --------------------------CCGGAG--------TATT------    395
+                                               ||||||        ||||      
+JAHYSF0100006   2094 GCGTGTGCTATCTTTGGTACGTTGCTCCGGAGACCGGGCATATTCTGCGC   2143
+
+LR732138.1       396 -------------GGG--------------ACCGGAACA-----------    407
+                                  |||              |.||.||||           
+JAHYSF0100006   2144 CGACGTCGTAGACGGGGCCACCGTCCTCAAAGCGCAACAGCAAATCCGCC   2193
+
+LR732138.1       408 -------------CACGGA--------------------------ACGCC    418
+                                  |||.||                          |.|||
+JAHYSF0100006   2194 GCCTGGACGACGGCACTGATGAAGGGCGTGAGAGAGCCCAGCTACAGGCC   2243
+
+LR732138.1       419 AAGGC-------------------------CCGCGCACAG------ACT-    436
+                     |||||                         |..||||.||      ||| 
+JAHYSF0100006   2244 AAGGCAGACATGGCCAGAGTGGAAGAAGTGCGTCGCAGAGCCGAGAACTG   2293
+
+LR732138.1       437 ---GACCGAG-----------------------------------TGGAC    448
+                        |||||||                                   |||||
+JAHYSF0100006   2294 CGAGACCGAGCCCGTCTGGGTCTTTGTACGCGGACCTGACGGTCCTGGAC   2343
+
+LR732138.1       449 --------------------------------------------------    448
+                                                                       
+JAHYSF0100006   2344 GGTTTGTCCTAACGACTCCGAGTCCGGAACAGCAGGTGGCCGCGCAGCAC   2393
+
+LR732138.1       449 ------------------CTGGGG--------------------------    454
+                                       ||||||                          
+JAHYSF0100006   2394 TGTATTCGTACCCGCCGACTGGGGTTCGTCGTACACACAGCAGACCCATT   2443
+
+LR732138.1       455 --------------------------------------------------    454
+                                                                       
+JAHYSF0100006   2444 GCTGCATAAGTATGATGGCGGCCATGCAGTCGGACAACCGCATTATCTGC   2493
+
+LR732138.1       455 --------------------------------------------------    454
+                                                                       
+JAHYSF0100006   2494 TGCCCCAGCACACCGTGCTCGCTGATGCCGGCGTGGTCTTTGCTGACCAC   2543
+
+LR732138.1       455 -------ACCCTGCG-----------------------------------    462
+                            ||||||.|                                   
+JAHYSF0100006   2544 CACGCCCACCCTGAGGCATGGCACCGGTACGTGCAGACTATCGACCGCGA   2593
+
+LR732138.1       463 --------------------------------------------------    462
+                                                                       
+JAHYSF0100006   2594 AGAGGAAGCGCGACAGATCCGATTACGCGAGCGGGTAGCCGCTGCCTCGT   2643
+
+LR732138.1       463 -----------------------------CGGCTACTA------------    471
+                                                  |||||.|||            
+JAHYSF0100006   2644 GGAAGGCGGCCTGGTTCGATAGACTCCGTCGGCTTCTAGACGAGGCGCAG   2693
+
+LR732138.1       472 --------------CAACCAGAGCGAG-----------------------    484
+                                   ||||..|||||||                       
+JAHYSF0100006   2694 ACGTGCCTCGCCGTCAACGGGAGCGAGCTGCTGGTGCCCCTATCCGATGA   2743
+
+LR732138.1       485 ---------------------GGC--------------------------    487
+                                          |||                          
+JAHYSF0100006   2744 TGCGAAGTTGCCCGCTATAAAGGCGAGACTGGGCGAACTGCATGACGTGT   2793
+
+LR732138.1       488 --------------------------------------------------    487
+                                                                       
+JAHYSF0100006   2794 TTGAACAGGTATACGCCACGCGACGAGAACACCGACAAAAGGCTAAGGTG   2843
+
+LR732138.1       488 ---------GGTGAGTG-GCCC----------------------------    499
+                              |||||||| ||.|                            
+JAHYSF0100006   2844 AGTTCACGTGGTGAGTGTGCACGCAGGATTATCGCGTGCACAAGCATCAA   2893
+
+LR732138.1       500 --------------------------------------------------    499
+                                                                       
+JAHYSF0100006   2894 TTGCAGGTAGAGGACATCAAGGCGCGTATTTCCGAAGTGTTACAGGAGGA   2943
+
+LR732138.1       500 ----------CGGCCCGGG-------------------------------    508
+                               ||||   ||                               
+JAHYSF0100006   2944 GCTATGGAGGCGGC---GGTGGAAGCGTGACCAGTCACACGACTTACGGT   2990
+
+LR732138.1       509 ---GCGCAG--------GTCA-----------------------------    518
+                        ||||||        ||||                             
+JAHYSF0100006   2991 TCCGCGCAGCAGATCGCGTCATAAGAGGTATAGTGGAAGATCGGGAGCAG   3040
+
+LR732138.1       519 --CGA--CCCCT------------------------------CCCCTCC-    533
+                       |||  ||.||                              |.|.||| 
+JAHYSF0100006   3041 CGCGAAGCCGCTAAGAAACGGGCAGTGCCTGGACTAGAGATGCGCATCCT   3090
+
+LR732138.1       534 -----------------------CCCACG--GACGGT-------------    545
+                                            ||.|||  ||||||             
+JAHYSF0100006   3091 AGAGATGCAGAATGTCATAAGTGCCAACGCCGACGGTGACGATGTGGATA   3140
+
+LR732138.1       546 ------------------CCGGGTCTC-------CCCGAGTC--------    562
+                                       .|||..|||       .|.|||||        
+JAHYSF0100006   3141 GCAAGTCGATGGTTGATGTCGGCACTCAAACTAAGCTGAGTCCTCGTCGT   3190
+
+LR732138.1       563 ----------------------------------------------TCCG    566
+                                                                   ||||
+JAHYSF0100006   3191 CGCCTGTACACTCGGGACCTGCGGCTCGATCGAGAACGCGTCCATGTCCG   3240
+
+LR732138.1       567 ------------------------------GGTC---CGAGATAG---GC    580
+                                                   ||||   |||||.||   |.
+JAHYSF0100006   3241 CTGCGACGCGCATCAAATGACGGACGCGTTGGTCTGTCGAGACAGAGTGA   3290
+
+LR732138.1       581 CCCGAGG---------------CCGCGG----------------------    593
+                     ||||.||               |||.||                      
+JAHYSF0100006   3291 CCCGGGGGACTGAAACGTCTTCCCGTGGGTCGTCTCGTGGGTCGTGCGTC   3340
+
+LR732138.1       594 ----GACCCGCCC----------AGA---CCCTC----------------    610
+                         |||||.|.|          |||   |||||                
+JAHYSF0100006   3341 CGACGACCCCCACTCAATGACGGAGATTTCCCTCCGCTGTCTCTTATTGC   3390
+
+LR732138.1       611 ----GACCGGGGAGAGCCCCAGGCGCC----------TTTAC---CC---    640
+                         |.|.|.|.|||   |||||.|||          |.|||   ||   
+JAHYSF0100006   3391 TGCAGTCAGCGCAGA---CCAGGTGCCAGCATCGGAGTATACTGGCCGAA   3437
+
+LR732138.1       641 ---------------------GGTTTCA----------------------    647
+                                          ||||.||                      
+JAHYSF0100006   3438 GGGCCAGACTGCGATCCAGTTGGTTGCAGTCTGGGGCCTGGGCCGCAACG   3487
+
+LR732138.1       648 -------------------------------------------TTTTCAG    654
+                                                                |.|||.|
+JAHYSF0100006   3488 GAGGAGACATCGGCACCGCTGATGCGAGCTAACATTGACCTGCTCTTCCG   3537
+
+LR732138.1       655 TTGAG-GC---CAA--------AATCCCC---------------------    671
+                     |.||| ||   |||        .|||.||                     
+JAHYSF0100006   3538 TAGAGCGCCTTCAAGCCCGTGCTATCTCCGCAGGTCTCACCCTATGATCG   3587
+
+LR732138.1       672 -GAGGGTTGGTCG------GGGCGGGGC-GGGGC----------------    697
+                      |.|||||.||||      .|.|||.|| |.|||                
+JAHYSF0100006   3588 AGCGGGTTCGTCGTGCCCTCGCCGGCGCAGAGGCCATTAGAGACCCGATC   3637
+
+LR732138.1       698 ------------TCGG------GGGACT-GTAC----TGACC--------    716
+                                 ||||      |.|||| ||.|    ||.||        
+JAHYSF0100006   3638 GACGACCTGGAATCGGCATACCGCGACTCGTGCCTCTTGGCCGGCGAGCA   3687
+
+LR732138.1       717 -----------------------GCGG-----------------------    720
+                                            ||||                       
+JAHYSF0100006   3688 GCTGCCGTCGTGGAAGCTGCCGAGCGGCCTGACGTCAGCAAGGCCGGACT   3737
+
+LR732138.1       721 ------------------GGGCGG----------------------GGCC    730
+                                       ||||||                      ||||
+JAHYSF0100006   3738 GGGGTCACGAAGAGCTCTGGGCGGGAGCTTTGTTGGAGAAGGTGATGGCC   3787
+
+LR732138.1       731 AG-----GG--TC-----------TCA------CACCATCCAG-------    749
+                     ||     ||  ||           |||      |||||  |||       
+JAHYSF0100006   3788 AGCCATTGGATTCCTCCTTGAGATTCAAGATTTCACCA--CAGCACACCA   3835
+
+LR732138.1       750 TGGAT-------------------GTACGGCT---------GCGACCTGG    771
+                     ||.||                   |.||.|||         ||.||.||.
+JAHYSF0100006   3836 TGTATTTGACGGTCCTTTTTGCCCGAACAGCTTCCTCGAGCGCTACGTGA   3885
+
+LR732138.1       772 GAC-----------------------------------------------    774
+                     .||                                               
+JAHYSF0100006   3886 TACACAATGTCTCGTCTGCTCCAAATTCTACGTCTTCGTGTCGTGCAGTG   3935
+
+LR732138.1       775 -----------------------CCGA----CGGG--------------C    783
+                                            ||||    ||||              |
+JAHYSF0100006   3936 CGCCTATCCTTTGATGTCTGAGTCCGAAGTTCGGGACTGCTCGGTTTCTC   3985
+
+LR732138.1       784 GCCTCC---------------TCCGC-------GGGTACCG--GCAGG--    807
+                     .|||||               |||.|       ||||   |  |||||  
+JAHYSF0100006   3986 TCCTCCATAATGTAGAAATCGTCCTCAAATGCAGGGT---GGTGCAGGGT   4032
+
+LR732138.1       808 --------------------------------------------------    807
+                                                                       
+JAHYSF0100006   4033 CAGTATGCTGAGAGTACCCACTTTATCCGTGAAAGCCACCTTTAAGGGTG   4082
+
+LR732138.1       808 ----ACG--------------CCT--------ACGACGGCA---------    822
+                         |||              |||        ||||||.||         
+JAHYSF0100006   4083 CATCACGAAGTAAAAACAGATCCTTCAACGTGACGACGTCACACATGTCG   4132
+
+LR732138.1       823 -----------AGG-------ATT------------------------AC    830
+                                |||       |||                        ||
+JAHYSF0100006   4133 TCGTCGTTTGGAGGCGGACTCATTTCGGAGGCCATTGTAGTGTCACTCAC   4182
+
+LR732138.1       831 ATCGCCCTGAACGAG-----------------------------------    845
+                     ||  |||.|.|||||                                   
+JAHYSF0100006   4183 AT--CCCAGCACGAGAAGTGAAATTGAGTGTCTGTCTCCACCGTCAGAAT   4230
+
+LR732138.1       846 -------GACC-------TG------------------------CGCT--    855
+                            ||||       ||                        ||||  
+JAHYSF0100006   4231 CCGTGCAGACCACGACGTTGCCACGAAGAACAGGGCAGCGGAACCGCTGA   4280
+
+LR732138.1       856 ------CCTGGA---CCGCC----GCGGA----------CGT--AGCG-G    879
+                           ||||||   |.|||    |||.|          |||  |.|| |
+JAHYSF0100006   4281 CTACGCCCTGGATTTCGGCCCAAAGCGAAGATCCATCTTCGTCCACCGTG   4330
+
+LR732138.1       880 CTCAG------------------AACACCCAGC-----------------    894
+                     |||||                  |||..|||||                 
+JAHYSF0100006   4331 CTCAGTCCGGTGCTCATGGACCTAACTACCAGCTGCCCCGTTATCAGGTC   4380
+
+LR732138.1       895 -------GCAA---------------------------------------    898
+                            ||||                                       
+JAHYSF0100006   4381 CGCGGTTGCAACCTCTAAGCACCCCAAAGAGTAGAAATACAACAGTAGAA   4430
+
+LR732138.1       899 ------GTGGG------------------AGGGGGA--------------    910
+                           ||.||                  ||.||.|              
+JAHYSF0100006   4431 ATATCTGTTGGCCCAGACCGCAGATTCCCAGCGGTACAACCTTACTGGAT   4480
+
+LR732138.1       911 -----------------------------CCGTTATGCGGAG--------    923
+                                                  ||..|||||.|.|        
+JAHYSF0100006   4481 GATTGTCTTAGCTGGCGCTCACTTGTCTTCCCATATGCTGGGGTCCAAAT   4530
+
+LR732138.1       924 --CG--GTTCAGAGCCT---------------------------------    936
+                       ||  |||||||||.|                                 
+JAHYSF0100006   4531 CACGAAGTTCAGAGCTTGGAACAATAGGCAACTTCTGCTGGGCTCCAACG   4580
+
+LR732138.1       937 ----------ACCTGGA---------------------------------    943
+                               |.|||||                                 
+JAHYSF0100006   4581 TCGAATACGGAACTGGAGCCGTCAAGTATCACCGCAGCTTCATTCACGAA   4630
+
+LR732138.1       944 --GGGGACGTG---------CGT-------------------GGAG----    959
+                       ||.|||.||         |||                   ||||    
+JAHYSF0100006   4631 GTGGAGACTTGGGAGAATATCGTAATCCTCAATGATTTCTGCGGAGAATT   4680
+
+LR732138.1       960 ------------------TGGCTCC---------------GCAGAT----    972
+                                       ||.||||               .|||||    
+JAHYSF0100006   4681 CGTACTCAGGCACCAGGTTGCCTCCTTGGGGAACCAGAAAACAGATTTTG   4730
+
+LR732138.1       973 --------------------------------------------------    972
+                                                                       
+JAHYSF0100006   4731 TAATCTGGATCTCGCGTCAAGACACAAAGGTACCCCTTCCGCCACCAGGT   4780
+
+LR732138.1       973 -------ACCT---------------------------------------    976
+                            ||||                                       
+JAHYSF0100006   4781 TCGCATGACCTCACGTCCGTCAAGGTCGATGGTCCACGTATTCAGCCTCT   4830
+
+LR732138.1       977 --------------------------------------------------    976
+                                                                       
+JAHYSF0100006   4831 CCACTTGTCCCCCTGATGTCACTCTCATCTCTGTCGACGAGGTGGTGGTG   4880
+
+LR732138.1       977 ---------------GGAGAACGGG---------------AAGGAG----    992
+                                    |.|||.|.||               ||||.|    
+JAHYSF0100006   4881 ACAATCATAAAGGTCGTAGATCCGGGTATAACATCTACTAAAGGGGCCTG   4930
+
+LR732138.1       993 --------------------------ACGCTGCAGCGCGC----------   1006
+                                               |||||.|..||.||          
+JAHYSF0100006   4931 TGTAGGGTAGTCCACGATGTCGTGGAACGCTTCCTCGTGCGGCCGAAGAA   4980
+
+LR732138.1      1007 ----------GGGTACCAG-------------------------------   1015
+                               ||.||||||                               
+JAHYSF0100006   4981 TTGAGTTTCTGGCTACCAGCCGGACCATCCGTTCTCCTGGATTGAAGGTG   5030
+
+LR732138.1      1016 --------------------------------------------------   1015
+                                                                       
+JAHYSF0100006   5031 GCTGCGATGCCCAGATGAAGGTCCCTAAAAACTCCAACAGATTTCAACGA   5080
+
+LR732138.1      1016 ---------------------GGG-------------------CAGTGGG   1025
+                                          |||                   ||||..|
+JAHYSF0100006   5081 AGCCCTAGTAATCAGGACTTCGGGAGCTCACCGATGTGTAGTACAGTCAG   5130
+
+LR732138.1      1026 GAGCCTTC---------------CCC-----------ATCACC-------   1042
+                     |||.||||               |||           ||||||       
+JAHYSF0100006   5131 GAGTCTTCAGTTCAAACATCGAACCCATGTCACGAAAATCACCCATTCAC   5180
+
+LR732138.1      1043 ---------------------------------------TCTAG------   1047
+                                                            |||||      
+JAHYSF0100006   5181 GTTTCAATTGCGGTTGATTACATGAAATAGATGCATGCATCTAGACGACG   5230
+
+LR732138.1      1048 -------ATCTCCC-------------------GGGATG-------GCC-   1063
+                            |.|||||                   .|||||       ||| 
+JAHYSF0100006   5231 CACCACCAACTCCCAAAACCTGTTGGCGTCGGTCGGATGCATCCTAGCCC   5280
+
+LR732138.1      1064 ----------------------------TCCCATG----AGGAGG-----   1076
+                                                 |||||.|    ||||||     
+JAHYSF0100006   5281 CGGCCGCTATTCAATGTCAGATGACTGATCCCAAGACCCAGGAGGAAGTC   5330
+
+LR732138.1      1077 --------------------GGAGG-----AAAAT--GG-----GATCA-   1093
+                                         |.|||     |||||  ||     |||.| 
+JAHYSF0100006   5331 CCCTCCTGCGAGTTGTCCCTGAAGGCCCGTAAAATCAGGTCCCTGATGAA   5380
+
+LR732138.1      1094 ----------------------------GCGC--------TA-----GAA   1102
+                                                 ||||        ||     |||
+JAHYSF0100006   5381 TCCTGGAGTGTTTGAGGCCTCTCAGGAGGCGCGGCGCGCATACTTGCGAA   5430
+
+LR732138.1      1103 TGT---------------------------CCCC---------------T   1110
+                     .||                           ||||               |
+JAHYSF0100006   5431 AGTTCTGGTCGCGGATCTACGACTCATCCGCCCCGGCAACGTCGAATCTT   5480
+
+LR732138.1      1111 CCCTTGAA--------TGG----------AGAA-----------------   1125
+                     ||..||||        |||          ||||                 
+JAHYSF0100006   5481 CCGCTGAAAGAGGATTTGGCCTTCATCAAAGAAGACACTCCGCTTGCCAG   5530
+
+LR732138.1      1126 ---TGGCATGAG-TTTCCCTGATT---------------------TCCTC   1150
+                        ||.|||||| |||  ||| ||                     |||||
+JAHYSF0100006   5531 GCTTGACATGAGCTTT--CTG-TTCGTTGTGGTCTGTGGACTTAGTCCTC   5577
+
+LR732138.1      1151 TG------AGGGCCCC----------------------------------   1160
+                     ||      |.||.|||                                  
+JAHYSF0100006   5578 TGTTCGACATGGACCCCAAGACTGGCCGAGTCACATTCACTGACAAAGGA   5627
+
+LR732138.1      1161 --CTCCGCTCTCTAG--------------GACA-----------------   1177
+                       ||||||     ||              ||||                 
+JAHYSF0100006   5628 GTCTCCGC-----AGACTTCAGCTTGTTTGACACTTGCGACATCACAATG   5672
+
+LR732138.1      1178 ----------------------------------------ATTAAGG---   1184
+                                                             ||||.||   
+JAHYSF0100006   5673 CTCGAGAAGCTGTCCGCGTGGCACTGGCTACAGATGTACGATTATGGGTT   5722
+
+LR732138.1      1185 --------------------------------------------------   1184
+                                                                       
+JAHYSF0100006   5723 CCTGGAGCGAACAATCAACCCCAGTGTTATTCTATCGTGTTTAGGACTCA   5772
+
+LR732138.1      1185 -------------------------GATGA-------------CGTCT--   1194
+                                              |||||             |||||  
+JAHYSF0100006   5773 ACGATCGCTTGCAATACCTGCGACAGATGACCTCCATCAGAAGCGTCTCC   5822
+
+LR732138.1      1195 -------------------------CTGAGGAC---AT-GGAGGGGAAGA   1215
+                                              |.|.||||   || ||||.||..|.
+JAHYSF0100006   5823 TGGCTGGAACAGGCTCGATGGGCAGCGGTGGACTGTATGGGAGAGGCCGT   5872
+
+LR732138.1      1216 CAGTC----------------CCTAGAATACAGA---------------T   1234
+                     |||||                |||    |||.||               .
+JAHYSF0100006   5873 CAGTCAGAGCTCCACGTGCATCCT----TACGGACATGTCGTTGCTACTG   5918
+
+LR732138.1      1235 CAG----------------------GGGTCCC------------------   1244
+                     |||                      |||.|||                  
+JAHYSF0100006   5919 CAGTTGCTAGAAACCCGTGGCCATTGGGACCCCGAGTACCTGGAGCGACG   5968
+
+LR732138.1      1245 ---------------------CTT--------------------------   1247
+                                          |||                          
+JAHYSF0100006   5969 AGCGCTGGTAGTGCAGCTCGGCTTGTATTTCATAAGCACCATACGCCTGC   6018
+
+LR732138.1      1248 ---------------TGACC--------CTTGCAGCAGCCT---------   1265
+                                    |||||        |||||||  ||||         
+JAHYSF0100006   6019 CCAAGCGCAGCCTGATGACCAACTACATCTTGCAG--GCCTTTAACGCCA   6066
+
+LR732138.1      1266 ----------------------------TGGGCATCGTGAATTTTT----   1283
+                                                 ||.|||.|||||     |    
+JAHYSF0100006   6067 TCCGCTGCGACGCACTCGACTCTCAGCATGCGCACCGTGA-----TGGGT   6111
+
+LR732138.1      1284 -------------------------CTCTCAG------------------   1290
+                                              |||.|||                  
+JAHYSF0100006   6112 TGAGAGCGCTGACCTTGGAAATGGACTCGCAGAGGCGGCTGGTAGGCGTT   6161
+
+LR732138.1      1291 --------------------------------------------------   1290
+                                                                       
+JAHYSF0100006   6162 GGGTGGAACGAATACGCCTCGGCGATGGGTATCACGCCTCCTCCGGTAGA   6211
+
+LR732138.1      1291 -------------GCTTTG--------------TT---CTCTG--CCTC-   1307
+                                  ||||||              ||   |||||  |||| 
+JAHYSF0100006   6212 CAGACTACTGGTTGCTTTGCAGTCGGGAGGCTCTTACCCTCTGTTCCTCA   6261
+
+LR732138.1      1308 ----------------------------------------ACACTCA---   1314
+                                                             |.|||||   
+JAHYSF0100006   6262 ACCCTTTCTTGTTGGCGGGACATAAGTGGGCCGAGGTTAAAGACTCACCA   6311
+
+LR732138.1      1315 ---------------------------ATGTG------------------   1319
+                                                |.|||                  
+JAHYSF0100006   6312 TCGTTCCGAGGATACAATCTCTCTATTAGGTGGACGGAACACAGATTTCC   6361
+
+LR732138.1      1320 -TTTGAA---TGTCT--------------GATTC----------------   1335
+                      |.||||   |.|||              |||||                
+JAHYSF0100006   6362 CTGTGAAAACTCTCTCTTCGACCTCTCGCGATTCGTAGAGTATGAGGCCC   6411
+
+LR732138.1      1336 -------------------------CAG----------------------   1338
+                                              |||                      
+JAHYSF0100006   6412 TGCCCTCGTCCATTGCCGCACTGCGCAGTGCTACGCCCTACCGTCTCTGC   6461
+
+LR732138.1      1339 -----------------------------CTTTTC---------------   1344
+                                                  ||.|||               
+JAHYSF0100006   6462 AGCCCGGACGAAGGCCCTTCTGCGCCGATCTCTTCCCGTGGCAGATTGGA   6511
+
+LR732138.1      1345 ------------------------TGAGTCCCTCGGC-------------   1357
+                                             |..|||||.||||             
+JAHYSF0100006   6512 CGGCTCGAGCACCGCGATGGACCTTAGGTCCCGCGGCGCGATAACGTCGC   6561
+
+LR732138.1      1358 -----CTCCACTCAGGTC--AGG---------------------------   1373
+                          |||.||.|||.||  |||                           
+JAHYSF0100006   6562 GCACTCTCGACGCAGTTCGGAGGCTGATCACTCGGTTCGACTGCAGCCAC   6611
+
+LR732138.1      1374 ----------------------------------ACCA---------GAA   1380
+                                                       ||||         |||
+JAHYSF0100006   6612 TTCCTGGACGAGTTCTCCAACGACACTGTTGTGCACCACGCCATCAGGAA   6661
+
+LR732138.1      1381 G--------------------------------------TCCCT-GTT--   1389
+                     |                                      ||||| |||  
+JAHYSF0100006   6662 GCAACTAGCGACCGCGCTGGTTGCGGGGTGCAACGCACTTCCCTCGTTGC   6711
+
+LR732138.1      1390 -------------------------------------CCT--------CA   1394
+                                                          |||        ||
+JAHYSF0100006   6712 CGGCCGCAATAAGTCTACCCGAGAATGAAAGCAACCACCTGTTGGCTCCA   6761
+
+LR732138.1      1395 C---TCAGAG----------------------------------AC----   1403
+                     |   ||||||                                  ||    
+JAHYSF0100006   6762 CTTGTCAGAGCGGGATGCCTGTGCTTTTGCGTCCATGGATTTCAACGCGA   6811
+
+LR732138.1      1404 --------------------------------------------------   1403
+                                                                       
+JAHYSF0100006   6812 AGAAATCATCATCGCGACCGAACGCATGTTCTCGCTCTACATCAACGAGA   6861
+
+LR732138.1      1404 ------------------------------TAGAACTCT-----------   1412
+                                                   ||||||.||           
+JAHYSF0100006   6862 TGCCTACTTGGCAAGAGGCTGGCCCCCACATAGAACGCTGGTGGGAGTTG   6911
+
+LR732138.1      1413 --------------------------------------------------   1412
+                                                                       
+JAHYSF0100006   6912 GTCTGTCCTGATAGACAGTTCAACCGGGCTGCCGAGAGTTATGGCTACGT   6961
+
+LR732138.1      1413 --------------------------------------------------   1412
+                                                                       
+JAHYSF0100006   6962 CTACGAAATGCCGCAGGACTCTGCTTGCGATATCGAATCGCAAGCCCCCA   7011
+
+LR732138.1      1413 --------------------------------------------------   1412
+                                                                       
+JAHYSF0100006   7012 AGCTACGCAATCCATCGACTGACTCCAACAGCACCCAATACTCAACAGCC   7061
+
+LR732138.1      1413 ----------CCAAGGAAT-------------------------------   1421
+                               ||||.||||                               
+JAHYSF0100006   7062 TCGGACGAGCCCAAAGAATTAGGATCGACCGTCACAATTGATAAAGCGCA   7111
+
+LR732138.1      1422 --------------------------------------------------   1421
+                                                                       
+JAHYSF0100006   7112 GGCTGACAACCGAAGTGAACGCTACCGACTCAGAGCGGACAAGCTGTTGA   7161
+
+LR732138.1      1422 --------------AGGAGAT-----------------------------   1428
+                                   ||.||||                             
+JAHYSF0100006   7162 GGACACTCCAACGGAGAAGATCCGCAGCTGAAACCTTGAATCCGCAACCT   7211
+
+LR732138.1      1429 -------------------------------------TATCCCAGA----   1437
+                                                          .||||||||    
+JAHYSF0100006   7212 AGCCTCCTGCCTCTGAAGCTGAGTAACGAGAACAAAAGATCCCAGAAAAC   7261
+
+LR732138.1      1438 --------------------------------------------------   1437
+                                                                       
+JAHYSF0100006   7262 ACGGACTTCAACTACTCGCCAGAAATATAAGCACCCAAAGGTTACTACAC   7311
+
+LR732138.1      1438 ------------------------------TGCCTG--------------   1443
+                                                   .|||||              
+JAHYSF0100006   7312 CCAAGAAATCTAAGAACCCAAAGAAGACCCAGCCTGAGGTTATGAACACT   7361
+
+LR732138.1      1444 TGTCCAG-----GCTGGTG-------TCTGGGTTCT----GTGCTC----   1473
+                     .||||||     ||.|.||       ||..||||||    .|||||    
+JAHYSF0100006   7362 GGTCCAGTGATTGCCGATGAGCATAATCACGGTTCTCTCGCTGCTCAGCC   7411
+
+LR732138.1      1474 ----------------CCTCCC---CCACCCC------------------   1486
+                                     ||||||   |||.|||                  
+JAHYSF0100006   7412 ATGCCAGCCTGAGGGTCCTCCCGCGCCAGCCCTGATCAACTACACGCAGA   7461
+
+LR732138.1      1487 -----------------------------------AGG------------   1489
+                                                        |||            
+JAHYSF0100006   7462 AGCGGGTCCACGCGCCAGTGATGCATACTAGTCGAAGGGAAAGCCTAGGC   7511
+
+LR732138.1      1490 ------TGTCCTGT---TCA----------TTCTC---------------   1505
+                           |.||||||   |||          |||||               
+JAHYSF0100006   7512 GCATGTTTTCCTGTTGGTCAGGTCCAAGTCTTCTCGAATACGTGGAAGTG   7561
+
+LR732138.1      1506 ------------------------------------AGGG---------T   1510
+                                                         ||||         |
+JAHYSF0100006   7562 TCACAGCGTTTGACCTCACAATGCTTCCCCGTAATAAGGGATTTTTCCAT   7611
+
+LR732138.1      1511 G-------------------------------------------------   1511
+                     |                                                 
+JAHYSF0100006   7612 GCCCCGCAAACGTCGCCAAAAGTCTGGTAGCAGCGCTCTTAGTGGCCGAG   7661
+
+LR732138.1      1512 --------------------------------------------GTCACA   1517
+                                                                 ||||||
+JAHYSF0100006   7662 GTTACGTGCCAAAGCCGCACCACGAGCCCGAGTTCGTTGATAAAGTCACA   7711
+
+LR732138.1      1518 T------------------------------GGGTGCTG-------CT--   1528
+                     |                              .||||.||       ||  
+JAHYSF0100006   7712 TTCCAGGATGGCGAGGTGGTTGAGGAGGCGGAGGTGGTGGAGAAAACTCG   7761
+
+LR732138.1      1529 ----------------GGGGTGTCC-------------------------   1537
+                                     |||.||.||                         
+JAHYSF0100006   7762 ACGAGTCAGAAACAGGGGGTTGACCTTCGCCAAGAATGGTGCGGAGCTGC   7811
+
+LR732138.1      1538 ------------------------------CAT-----------------   1540
+                                                   |||                 
+JAHYSF0100006   7812 AACCTATTTTTGAGAAGATTGCTGAACAGGCATCCGCGGCACAGGAGACT   7861
+
+LR732138.1      1541 ---GAGAG-----------------------ATGCAAAGC----------   1554
+                        |||||                       ||||.||||          
+JAHYSF0100006   7862 GCGGAGAGAAAAGCAGCACAGCGCGCTGAGCATGCTAAGCGGTTAGAGGC   7911
+
+LR732138.1      1555 --------------------------------------------------   1554
+                                                                       
+JAHYSF0100006   7912 GAAGGAGAGAGAGAGTGCTGGTGTCGATGTGGTTGAGGTTGCTGCTGCTG   7961
+
+LR732138.1      1555 --------------------------------------------------   1554
+                                                                       
+JAHYSF0100006   7962 AGCAGGAGGCCGAGGAAGAGGTTCCCGTGGCGGCCACCGACAGTGACGCG   8011
+
+LR732138.1      1555 --CCCTGA-----------------------------------ATTTTCT   1567
+                       .|||||                                   |||||.|
+JAHYSF0100006   8012 CTTCCTGAGGACGACCTGGAGGACGGCTTCGAGGTTGACGACGATTTTTT   8061
+
+LR732138.1      1568 ---------------------------------GACTCT-----------   1573
+                                                      |||.||           
+JAHYSF0100006   8062 CGATAACGAGGACTTGAAGCCGCAGGAATTCACGACGCTGGCGGTGGACG   8111
+
+LR732138.1      1574 --------TTCCA----TCAGAT---------------------------   1584
+                             |||.|    ||.|||                           
+JAHYSF0100006   8112 TTCGTGAATTCGACGACTCCGATGTGAGCGTGAGCGACGAAGAAGACGAC   8161
+
+LR732138.1      1585 --------------------------------------------------   1584
+                                                                       
+JAHYSF0100006   8162 GACGAGTTAGAGAGGAGGTATGTTCGGAAGCGATCGAAGGCTCTGAGAGC   8211
+
+LR732138.1      1585 -------------------CCCCCAAAGACACAC----------------   1599
+                                        .||||||.||| |||                
+JAHYSF0100006   8212 CAAGGACGCCCGCGACAAGGCCCCAACGAC-CACCGAGGACCCCGAGCTG   8260
+
+LR732138.1      1600 --------------------------------------------------   1599
+                                                                       
+JAHYSF0100006   8261 CAGACCGGCAAGCAGGCCAAGCCTAAGGCCGCAGCGCTGTCGCAAGCATG   8310
+
+LR732138.1      1600 --GTGACCCACCACC--------CCGTCTCTGA-----------------   1622
+                       |||||.| |||||        |||..|||||                 
+JAHYSF0100006   8311 GAGTGACAC-CCACCTGTCGAAGCCGCTTCTGAAGGCCGTGCAGGAAATG   8359
+
+LR732138.1      1623 -------------------CCAT-------GAGGCCA-------------   1633
+                                        ||||       |||||.|             
+JAHYSF0100006   8360 GGGTACAAGACTCCAACTCCCATTCAGAAGGAGGCGATTCCTTACGTACT   8409
+
+LR732138.1      1634 ------CCCTGAGGTGCTGGGC----------------------------   1649
+                           .|.|||.|||.|||||                            
+JAHYSF0100006   8410 GCTTGGACGTGACGTGATGGGCATCGCGCAGACTGGCTCCGGCAAGACCG   8459
+
+LR732138.1      1650 ----------CCTG-------------GGCTTCT------ACC-------   1663
+                               ||||             ||||.||      |||       
+JAHYSF0100006   8460 CGGCCTTCTGCCTGCCCATTCTGGAGCGGCTGCTGCAGTCACCAAACATC   8509
+
+LR732138.1      1664 --------------------------------------CTGCGGAGATCA   1675
+                                                           |.|||.|| |||
+JAHYSF0100006   8510 CAAGGTCGGCGACTGACCTCCACCGGCGTTCGCGGCGGCCGCGCAG-TCA   8558
+
+LR732138.1      1676 CG--------------CT--------------------------------   1679
+                     ||              ||                                
+JAHYSF0100006   8559 CGAAAGCCATGATGATCTCCCCCACCAGAGAGCTGGCCATACAGACCTAC   8608
+
+LR732138.1      1680 GACGT---------------------------------------------   1684
+                     |||||                                             
+JAHYSF0100006   8609 GACGTGCTCACCAACCTCAGCAGGTTCACAACCATCACTCGAGCTCTGGT   8658
+
+LR732138.1      1685 ----GGCAGCG-GGATGGGGAGGATCA--------------------AAC   1709
+                         |||.||| ||||..||||.|.||                    |||
+JAHYSF0100006   8659 CGCCGGCGGCGTGGATTTGGAGAAGCAGGTTGCCCATTTGCGTATGCAAC   8708
+
+LR732138.1      1710 TCAGGACAT-------------------AGAGTT-----TGTGGAGACC-   1734
+                      || |||||                   .||.||     |||||   || 
+JAHYSF0100006   8709 -CA-GACATCGTCATCGGCACCCCAGGCCGAATTATCGATGTGG---CCC   8753
+
+LR732138.1      1735 ----AGGCCAG------------GAG------GAGAT-------------   1749
+                         .|.||||            |||      |||||             
+JAHYSF0100006   8754 TCAATGCCCAGAACGTCTATTTCGAGTTCCTCGAGATTATGGTGTTGGAC   8803
+
+LR732138.1      1750 ------------------------GGAACCTTCCA---------------   1760
+                                             |||   |||||               
+JAHYSF0100006   8804 GAAGCCGATCGGTTGCTCGATTTGGGA---TTCCAAAACGCCATCATTCA   8850
+
+LR732138.1      1761 ------GAAG----------------------------------------   1764
+                           ||||                                        
+JAHYSF0100006   8851 CATTCTGAAGCAGTGCTCAACACCGACACGCCAAACCCTGCTGTTCTCAG   8900
+
+LR732138.1      1765 ---------------------------TGG--------------------   1767
+                                                |||                    
+JAHYSF0100006   8901 CCACCCTCGAGGACGAAGTCCTCGACTTGGCCGCCCTGGCGTTGAAGAAG   8950
+
+LR732138.1      1768 -----------------------------------------------GGA   1770
+                                                                    |||
+JAHYSF0100006   8951 CCCGTCAAGGTTCAGGTGAACAAGTCACACCACGTGTGCGAGCAGTTGGA   9000
+
+LR732138.1      1771 GCTGTGGT-----------GGTG---------------------------   1782
+                     ||.|||.|           ||||                           
+JAHYSF0100006   9001 GCAGTGCTTTCTTGGGGTCGGTGAATGGAAGGACTTCGATGCGGCTCTGT   9050
+
+LR732138.1      1783 ----CCTTCTG------GAGAAG-------AG------------------   1797
+                         |||.|||      ||.|||       ||                  
+JAHYSF0100006   9051 TGCACCTGCTGACCACAGACAAGCCCATCAAGGGGGCCAAAACTACTGTA   9100
+
+LR732138.1      1798 ----------------------------CAGAGAT---------------   1804
+                                                 ||.||||               
+JAHYSF0100006   9101 CCTCTACTTAGTGACCGCACTACCTTTCCAAAGATCATAGCATTCTTCAA   9150
+
+LR732138.1      1805 -ACA-------CGTGCCAT-----GT------------------------   1817
+                      |||       ||||.|||     ||                        
+JAHYSF0100006   9151 GACAAAGAAGTCGTGTCATCGAACGTCAATTGCGCTAACTCAGCTCGGCA   9200
+
+LR732138.1      1818 -------------------------------------GCAGC--------   1822
+                                                          |||||        
+JAHYSF0100006   9201 TCGCGCACTTCGAGCTTCATGGCGACCTGTCACAGACGCAGCGACTCCAA   9250
+
+LR732138.1      1823 -------------------------------------------------A   1823
+                                                                      |
+JAHYSF0100006   9251 AACCTTCGAAACTTCCACATGTCCTCGGAAGCGGTCATTCTAGCGTCCGA   9300
+
+LR732138.1      1824 TGAG----------------------------------------------   1827
+                     ||.|                                              
+JAHYSF0100006   9301 TGTGGCCTCCCGTGGCATTGATGTCGACAATGTCTCAGCGGTCATCAATC   9350
+
+LR732138.1      1828 --GGGCTGCCGG-------------------------------------A   1838
+                       |||.||||||                                     |
+JAHYSF0100006   9351 TTGGGTTGCCGGTGGATACCACTCGGTACATCCACAGAGTCGGTCGTACA   9400
+
+LR732138.1      1839 GC------------------------------------------------   1840
+                     ||                                                
+JAHYSF0100006   9401 GCACGTATCGGCAACAGCGGCGTGGCTGTGACGGTTTTTACCCAACAGGA   9450
+
+LR732138.1      1841 --------------------------------------------------   1840
+                                                                       
+JAHYSF0100006   9451 GCGTGCAGCGGTGAAACGTATCTGGAAGACGGTATCAAAGAAAGAGAAAG   9500
+
+LR732138.1      1841 ------------------------CCCTCA--------------------   1846
+                                             ||.|||                    
+JAHYSF0100006   9501 GGGAACGCACATTACCACTGCCAGCCGTCAAGATCAACAAAACTACAATT   9550
+
+LR732138.1      1847 ---CCCTG-----------------AGAT----------------GGGGT   1860
+                        |||||                 ||||                ||.||
+JAHYSF0100006   9551 GCTCCCTGGAAGGTGAAGCTGGCCAAGATCGACAAGGATGTCCGCGGAGT   9600
+
+LR732138.1      1861 -------AAGGAGGG--GTATGAAGGGTCA-------------TGTCTCT   1888
+                            .|||||||  |||.|||||..||             .|||||.
+JAHYSF0100006   9601 GATTCGCGAGGAGGGGCGTAAGAAGGAGCAGGACAAGGCCGACCGTCTCA   9650
+
+LR732138.1      1889 T----CTCAGGGAA-------AGCA---------GGAGCCCTT-------   1911
+                     |    |||||..||       ||||         |.|||.|||       
+JAHYSF0100006   9651 TGGACCTCAGCAAAAATTTGGAGCAGCTGGCGTCGAAGCGCTTGCGGCAT   9700
+
+LR732138.1      1912 ------------------------------------CTGG-------AGC   1918
+                                                         ||||       |||
+JAHYSF0100006   9701 CCTGATCGCGAGTATGTCGATCATGGCCAGAACGAGCTGGAAGGTAAAGC   9750
+
+LR732138.1      1919 C-----------------CTTCA---GC----------------------   1926
+                     |                 |||||   ||                      
+JAHYSF0100006   9751 CAAGTTGCTCCTTGACGACTTCATGGGCAAAACCCCCGTGAAACGACGGA   9800
+
+LR732138.1      1927 --------------------------------------------------   1926
+                                                                       
+JAHYSF0100006   9801 AAGTGGCGACGTGATGTGGCGTGTCCATTAAAAATCCGTATCAATTCTCT   9850
+
+LR732138.1      1927 ------------------------------------------AGGGTCA-   1933
+                                                               ||.|||| 
+JAHYSF0100006   9851 CATTTTCAAAACGAAACATCGAAATCATAAAAAAAATCGATGAGAGTCAA   9900
+
+LR732138.1      1934 -------------------------------------------------G   1934
+                                                                      |
+JAHYSF0100006   9901 AGATAAGGAATCAAATGGATTGGAACGCATTCTGCCCTTGATTGCTAGTG   9950
+
+LR732138.1      1935 GGCCC----------CT-----------------------CATCTT----   1947
+                     |||||          ||                       ||||||    
+JAHYSF0100006   9951 GGCCCGCGTGGAAAACTTCACCAGACCAAGCACTGCGCGCCATCTTGGAC  10000
+
+LR732138.1      1948 -------CCCCTCCTTT---------CCCAG----AGC------------   1965
+                            |.|||||.||         |||||    |||            
+JAHYSF0100006  10001 AACCACGCTCCTCCGTTTATGCAGTGCCCAGCTTCAGCCTTCACGAATGT  10050
+
+LR732138.1      1966 ---------------------------------------------CATCT   1970
+                                                                  |||..
+JAHYSF0100006  10051 TGACAACGGCGTCATCAACACCATCCTAAAGAACTACGGCAGCAACATGA  10100
+
+LR732138.1      1971 TCCCAGTCCA---------------------------CCATCCC--CATC   1991
+                     ||||||||.|                           |||||.|  |||.
+JAHYSF0100006  10101 TCCCAGTCAATGGACTGGTGCCTGGCACTGTCGAGGGCCATCACTTCATG  10150
+
+LR732138.1      1992 G------------------TGGGCAT------------TGTTGTTGG---   2008
+                     |                  |||||.|            |||.||.||   
+JAHYSF0100006  10151 GGCTTTCCTTCCAATACGATGGGCGTTCCCAACGCAGCTGTGGTAGGAAC  10200
+
+LR732138.1      2009 ---------------CTTG----GCTGTCCTAGCAGTTGTG---------   2030
+                                    ||||    |.||||| |||.||||||         
+JAHYSF0100006  10201 ACCCGCACTATCGGACTTGAGCCGGTGTCC-AGCGGTTGTGTCAGAGGCT  10249
+
+LR732138.1      2031 --------------------------------------------------   2030
+                                                                       
+JAHYSF0100006  10250 TTCAAGATGGCGTGCGATAAGCGCGGCGAGCCCTTGGACGCAGAAATGCT  10299
+
+LR732138.1      2031 ----------------------GTCA------------------------   2034
+                                           ||||                        
+JAHYSF0100006  10300 TGAGGCGTACCACAACCATGTCGTCAAAGAGGCCTACCTCACCTACATGA  10349
+
+LR732138.1      2035 -----CCGGAG---------------------------------------   2040
+                          |.||||                                       
+JAHYSF0100006  10350 GATCTCTGGAGGAGAAGACCCAGCAGGCTCAAGGTCCCATGGACAACTTC  10399
+
+LR732138.1      2041 -------------------------------CTGTG--------------   2045
+                                                    |||||              
+JAHYSF0100006  10400 CGCCTTCGGAGAAGCGTAAACAGCAATGCTTCTGTGTTCGGTTGCGAGGA  10449
+
+LR732138.1      2046 --------------------------------------------------   2045
+                                                                       
+JAHYSF0100006  10450 CAGCAAGCACATCAAAGCTACCTACGTACAGATTCTCCCCCAAAACCAAT  10499
+
+LR732138.1      2046 ---------------------------------------GTCGCTGCTGT   2056
+                                                            |.||||.|.||
+JAHYSF0100006  10500 ACGACGAGGCCGGAAACCAAACCTCGCTCCATCGACCACGGCGCTCCAGT  10549
+
+LR732138.1      2057 GA------------------------------------------------   2058
+                     ||                                                
+JAHYSF0100006  10550 GACGCCGTTGATCTCGTGGGGTCAGTAGTGATCCATGAGCTCGCCGAAGG  10599
+
+LR732138.1      2059 --------------------------------------------------   2058
+                                                                       
+JAHYSF0100006  10600 CTGCACTTTCGGACACCCCGAGTTCGACAGCAACCCAAAGGATAAACGAT  10649
+
+LR732138.1      2059 --------------------------------------------------   2058
+                                                                       
+JAHYSF0100006  10650 TTCTTGTTGTCGTGTATCTTCCGTTGAAGGAGCAGATCTCCGACTCGAGT  10699
+
+LR732138.1      2059 --------------------------------------------------   2058
+                                                                       
+JAHYSF0100006  10700 GAGTCACGTCAGCGGTACCTTCGGTTGTGCTCCTACGCCTCCCACAACCT  10749
+
+LR732138.1      2059 --------------------------------------------------   2058
+                                                                       
+JAHYSF0100006  10750 CTACGCCGCTCTTTCCCAGTGGAACGTGGCGTCGCAGGCCCCATGGCCAG  10799
+
+LR732138.1      2059 ---------TGTGGA-------------------------GGA-------   2067
+                              ||||||                         |||       
+JAHYSF0100006  10800 TCTACGACTTGTGGATGCTCAACCCAACAGACCGAATCTTGGACATGGTC  10849
+
+LR732138.1      2068 --------------------------------------------------   2067
+                                                                       
+JAHYSF0100006  10850 AGCGACAAGGACGCTGAGGGCCGACTGAAGGCTACCCGGAGGTATTTTAA  10899
+
+LR732138.1      2068 ---------------------GGAAGAGCT----------CAGG------   2080
+                                          |||||||||          ||||      
+JAHYSF0100006  10900 AGACCGACGCAGGCGACTTGGGGAAGAGCTGGAAGAACTCCAGGAGACCT  10949
+
+LR732138.1      2081 --------------------------------------------------   2080
+                                                                       
+JAHYSF0100006  10950 TCACCGAAATGGCTTCTGTTGCGCGCCACGCAAATCTATCTCGCAGTGAT  10999
+
+LR732138.1      2081 --------------------------------------------------   2080
+                                                                       
+JAHYSF0100006  11000 GCCAAGGAAATGAAGAAGGTGGAGGTGCTGATCCGAAAACGTCGCCGGCA  11049
+
+LR732138.1      2081 --TAGGGAAG-----------------------GGGTGAGGG-GTGG---   2101
+                       |.||.|||                       |.||||||| ||||   
+JAHYSF0100006  11050 AATCGGAAAGTACAAGAAGTTCGCCAACCGCGAGAGTGAGGGAGTGGTCA  11099
+
+LR732138.1      2102 -----------------------------------GGTCTGG--------   2108
+                                                        |||||.|        
+JAHYSF0100006  11100 CAACCCCCATCCAGGGCATCTGCTATGGGCGTGCCGGTCTCGAGTCTGAC  11149
+
+LR732138.1      2109 -----------------------------GTTT-----------------   2112
+                                                  ||||                 
+JAHYSF0100006  11150 GACTTCTGGACATTCGGTCCTACGGAGCAGTTTCAGGCGGCCGGCAACAA  11199
+
+LR732138.1      2113 ---------TCT--------------------------------------   2115
+                              |||                                      
+JAHYSF0100006  11200 GAGAACGCCTCTGGAATACATCGCTGCGTGGTGGCGTGGCGCCTCCATGC  11249
+
+LR732138.1      2116 -------------------------------TGT----------------   2118
+                                                    |||                
+JAHYSF0100006  11250 TAGACAAGTCGCTGCAGCAGTACGCACCCGCTGTGGAGACGCATGCTGAG  11299
+
+LR732138.1      2119 ----------------------------------CCCA------------   2122
+                                                       ||||            
+JAHYSF0100006  11300 GGCTGCGCTATCGGGTCTCGGCTAACCAAGCAGGCCCAAATGTTGAATGA  11349
+
+LR732138.1      2123 -----------------------------------CTGG-----------   2126
+                                                        ||||           
+JAHYSF0100006  11350 CAAGTATAAAGTGAAGTTCGAGAATACAAGCGTGCCTGGCATCCTCGCCA  11399
+
+LR732138.1      2127 -------GGGT-TTCAAGCC------------------------------   2138
+                            |||| |.||||||                              
+JAHYSF0100006  11400 TGAACCAGGGTGTCCAAGCCTTGAAGGCCGCAGCACAACGAAAGAAATGA  11449
+
+LR732138.1      2139 ----------------------------CCAG------------------   2142
+                                                 ||||                  
+JAHYSF0100006  11450 ATGACTGAATGAACCCTTTACTCGTCCGCCAGTCGCTCCTTGATCTTATC  11499
+
+LR732138.1      2143 --------------------------------------------------   2142
+                                                                       
+JAHYSF0100006  11500 CAGTGCGTCAAGCACGTGCTGCTGACACAGGTTTTCCACCTCTGCCAGCA  11549
+
+LR732138.1      2143 -------------------------------GTAG---------------   2146
+                                                    ||||               
+JAHYSF0100006  11550 GCGGCTCATTCACGGGTTCCTCTCTGTGTCTGTAGGTTGGCGGGTTCGTT  11599
+
+LR732138.1      2147 -----------------AAGT---GTTTC---------------CTGCCT   2161
+                                      .|||   |||||               ||||.|
+JAHYSF0100006  11600 TTTGGTGGGGCCTGCTCCAGTCGAGTTTCTAACTGGTCAAATCGCTGCAT  11649
+
+LR732138.1      2162 CA----TTCC-----------------TGGGA------------------   2172
+                     ||    ||||                 ||.||                  
+JAHYSF0100006  11650 CAGCCGTTCCAGCTGTGTTCTTTGTCGTGCGAGTACGTCCTCTATCGCAG  11699
+
+LR732138.1      2173 --------AACAGCATCC--------------------------------   2182
+                             ||||.||.||                                
+JAHYSF0100006  11700 ATGACTCCAACATCAGCCGTTTCAGCCTTTCCGACCGCATCTTTCAATTC  11749
+
+LR732138.1      2183 -------------------------ACAC------------AG------G   2189
+                                              ||||            ||      |
+JAHYSF0100006  11750 GGTTTTATTTATTTCCATTCAAATTACACGCCCCTACTCCAAGTCAGCCG  11799
+
+LR732138.1      2190 GGCTA-------ACCCA-----------------------------GCCT   2203
+                     |.|||       ||.||                             |.||
+JAHYSF0100006  11800 GCCTAGGTTTGTACTCACAATCCGGAATAAAACCTTGAAGGTGGTCGTCT  11849
+
+LR732138.1      2204 GGGA----------------------------------------------   2207
+                     ||||                                              
+JAHYSF0100006  11850 GGGAACACGAAGCTCTGAGTGCGCCCGCTGTGCGTTCGACTGGTCTCGTT  11899
+
+LR732138.1      2208 --------------------------CCCTGTGTGCC-------------   2218
+                                               |||||||.|||             
+JAHYSF0100006  11900 TGTCATTTCGCTCGTCTCAAGTTTTTCCCTGTGAGCCACTGTCTGTTTTC  11949
+
+LR732138.1      2219 ------------AGGA------------------------------CT--   2224
+                                 ||||                              ||  
+JAHYSF0100006  11950 GCCAAGCGCGAAAGGAACGCGCCGCGTTCAGCAAGAGGAACACGACCTGG  11999
+
+LR732138.1      2225 -------------------------TACTCT--------------TTTGT   2235
+                                              |.||||              |.|||
+JAHYSF0100006  12000 GCGTCGAAATCGTCAAGTGCCATGCTCCTCTCTGGTGGGGACAACTCTGT  12049
+
+LR732138.1      2236 GT-----------------AGCA--------------------ATG----   2244
+                     ||                 ||||                    |||    
+JAHYSF0100006  12050 GTACTTTACGCGCCCAGTCAGCAGGCGACTCATTAGCTCATCCATGGCGG  12099
+
+LR732138.1      2245 ------------------TGACAA--------------------------   2250
+                                       ||||.|                          
+JAHYSF0100006  12100 CGGAGCTCTTTTCTGACCTGACGAGGAGGTCGATTTTGTCGTTGGTTAGG  12149
+
+LR732138.1      2251 --------TGAAGGA-CGG-------------------------------   2260
+                             ||.|||| |||                               
+JAHYSF0100006  12150 CTGTACGCTGCAGGAGCGGGGGCCGCACGAGCTTCGGTCGCACGTTCGAA  12199
+
+LR732138.1      2261 ----------------------------------ATGTAT-CAC------   2269
+                                                       ||||.| |||      
+JAHYSF0100006  12200 CTCACGAACGGGCCTGCTGGGTCTCCACGCGCTTATGTCTCCACTGCGAG  12249
+
+LR732138.1      2270 -------------------------------CTTGCT-----GATTA---   2280
+                                                    ||||||     |||||   
+JAHYSF0100006  12250 AACCACCGCGGCCGTAGGTGAACGACCCCCGCTTGCTTCGGCGATTACTT  12299
+
+LR732138.1      2281 -----TGGTATTGGGTCCT-------------------GATTCC------   2300
+                          |.||.|.||.|.||                   ||||||      
+JAHYSF0100006  12300 TGGCCTCGTCTAGGTTTCTGGCTCATTGAAAATAGAGAGATTCCGGAGGG  12349
+
+LR732138.1      2301 --------------------------------------------------   2300
+                                                                       
+JAHYSF0100006  12350 AAGGGGGGTAGAGGCCCAGGCGCCATGCTGCTGCCTCAGCCGCATCGACG  12399
+
+LR732138.1      2301 ----------AGCATTCGTG-----------AGTCAGG------------   2317
+                               |||||.||.|           .||||||            
+JAHYSF0100006  12400 ACCGTCTCTAAGCATGCGGGTCCAAACGGCTTGTCAGGTCCGACCCAACA  12449
+
+LR732138.1      2318 -------------------------------------GGAAG--------   2322
+                                                          |||.|        
+JAHYSF0100006  12450 CCAGTCTCCGTATTAATTCGCTTTTCCACGTCAGCCAGGATGTTCTCTAC  12499
+
+LR732138.1      2323 ---------------------------------------------GTCCC   2327
+                                                                  |.|||
+JAHYSF0100006  12500 ACTGCGTCGAATGGTGTCGAGGATAATCAGTATGGACGAGACGGTGGCCC  12549
+
+LR732138.1      2328 TGCTA---------------------------------------------   2332
+                     |||.|                                             
+JAHYSF0100006  12550 TGCCAGAGCCGGATACCACACTCAACCTCAGTGACCTGAGTTTTTACTTC  12599
+
+LR732138.1      2333 --------------------------------------------------   2332
+                                                                       
+JAHYSF0100006  12600 GCTGTTCTATCGTTGGTGCCTCCACTTGTCGTGGAACCCCCAAAAAAGTG  12649
+
+LR732138.1      2333 --------------------------------------------------   2332
+                                                                       
+JAHYSF0100006  12650 CTCCCCCGGGTGGTTGGACACTTTGAAAAGCGTGCATGACCACCTGGACG  12699
+
+LR732138.1      2333 ------------------------------------AGGACA--------   2338
+                                                         ||||||        
+JAHYSF0100006  12700 CCTACCGTAAACTAGTAACCAACCTTCAGATCTGCGAGGACACATGCACA  12749
+
+LR732138.1      2339 ---GACCT-CGGGAGGGC--------------------------------   2352
+                        ||.|| ||.||||||                                
+JAHYSF0100006  12750 GAGGAACTCCGAGAGGGCCAGGAGTGCAACTGCTGCAATCACCGCTCTCG  12799
+
+LR732138.1      2353 --------AGTTGG-------------TCCAGGACACACAGCT-------   2374
+                             ||.|||             |||   ||||||||||       
+JAHYSF0100006  12800 GAGTCGTAAGGTGGAGCGGAGGGGGGCTCC---ACACACAGCTGCAAACG  12846
+
+LR732138.1      2375 --------------------------------------------------   2374
+                                                                       
+JAHYSF0100006  12847 CGCCTGGAGATCGAACGGGGTGTCTCGGCCCTAGGGCTCGATGCCCAATA  12896
+
+LR732138.1      2375 ---------------GCTTT------------------------------   2379
+                                    |||||                              
+JAHYSF0100006  12897 CGCTGAGCTGCTTCAGCTTTCCCGCAAGGACCACGGCACGTCACTCCACC  12946
+
+LR732138.1      2380 --------------------------------------------------   2379
+                                                                       
+JAHYSF0100006  12947 AGTGCCAAGTGGTGGTGCCTGGCCTCTGGATAGGGTCGTACCACACGGCT  12996
+
+LR732138.1      2380 --------------------------------------------------   2379
+                                                                       
+JAHYSF0100006  12997 AGCTCTCGCATCCAGCTGATTTCGCGCCATATAACTCATATCGTGTGCGC  13046
+
+LR732138.1      2380 -------------------CCTCCTGTTCCC-------------------   2391
+                                        |||||| |||||                   
+JAHYSF0100006  13047 CGCCCCTCTGTGCGGGCCCCCTCCT-TTCCCACGCCTTTACAAGTACCTC  13095
+
+LR732138.1      2392 -TGATTC------------------------------TGCCCTGGGTCTG   2410
+                      ||||||                              .|||.|||.||..
+JAHYSF0100006  13096 GTGATTCCCGTCGAGGACAAGGTCACCCAAAATCTAAAGCCGTGGTTCAA  13145
+
+LR732138.1      2411 TAG-----------TCAT---------------------------AGTTC   2422
+                     .||           ||||                           .||||
+JAHYSF0100006  13146 AAGAGCCTCCGCCTTCATCCGTGCCGCTCTTGAGGAGGGCGGCAATGTTC  13195
+
+LR732138.1      2423 T----------------GGAAAT-----------TTC-------------   2432
+                     |                ||||.|           |||             
+JAHYSF0100006  13196 TCGTTCACTGCGGCGCCGGAATTAGCCGAGCGCCTTCCTTCTGTGCAGCG  13245
+
+LR732138.1      2433 --TCTTGGGTCCAAG----------ACTAGGAG-----------------   2453
+                       |||||..|||.||          .||.||||                 
+JAHYSF0100006  13246 TTTCTTGTCTCCGAGCTGATGATTACCTCGGAGTCTGCGTTGGCTATCGT  13295
+
+LR732138.1      2454 ------------------------------------GTTCTTC-------   2460
+                                                         |||..||       
+JAHYSF0100006  13296 ACGGGCAGCACGGCCACACATTAAACCCAACCCTGCGTTTGTCACGCAGC  13345
+
+LR732138.1      2461 -------------TAA-GATC---------------GTA-----------   2470
+                                  ||| ||||               |||           
+JAHYSF0100006  13346 TGCACGAGTTCAGTAAGGATCTCTGCGAAGAAGCCTGTAAAGGAGACGAG  13395
+
+LR732138.1      2471 ----TGG-CCTTGCTT----------------------------------   2481
+                         ||| |||||.||                                  
+JAHYSF0100006  13396 GTAGTGGCCCTTGATTTGACTCCGTCACCTCTCTCTCGTCGAAACGTCTG  13445
+
+LR732138.1      2482 -----------------------------CCTCC--------CAGCCTC-   2493
+                                                  |||||        |||||.| 
+JAHYSF0100006  13446 CTCCATGCCTGACATGGCCAATGCACTCCCCTCCACCAAAGGCAGCCGCA  13495
+
+LR732138.1      2494 -----CTC-----ACAGGAC------------------------------   2503
+                          |||     |||||||                              
+JAHYSF0100006  13496 AGCCGCTCCCACTACAGGACCGCAAGGCTGCAGATTTCCGACCCTACGAG  13545
+
+LR732138.1      2504 ---------------------------------ATTTTCTTCC-------   2513
+                                                      ||||.||.||       
+JAHYSF0100006  13546 GGAGGTATTACCTTTGGTGAGCAAGGTCAGATGATTTACTCCCAAAACAA  13595
+
+LR732138.1      2514 ---------------------CACA-------------------------   2517
+                                          ||||                         
+JAHYSF0100006  13596 GCGGCTACTGACACTTCGGCGCACAAAGTCGGACTCCATGCTTGGCGGAT  13645
+
+LR732138.1      2518 --------------------------------------------------   2517
+                                                                       
+JAHYSF0100006  13646 GTGTTGTGCGTCGCGAGTCTCGAGGTCTGAGTGAGACTTTCATCTGACAC  13695
+
+LR732138.1      2518 --------------------------------------------------   2517
+                                                                       
+JAHYSF0100006  13696 TAAAAAATTGAACGACCACTCGAACTCGATTTCAGAACAGCGTTAATCCC  13745
+
+LR732138.1      2518 -----GGTGGAA---------------------AAGGAG-----------   2530
+                          |||.|||                     ||||||           
+JAHYSF0100006  13746 ATAGTGGTTGAACGACCACCTTCTCAATTGTTGAAGGAGTCATTGCTTGC  13795
+
+LR732138.1      2531 --------------------------------------------------   2530
+                                                                       
+JAHYSF0100006  13796 GCGCCGCACGCTTGAACGAGCCCTGCACCTTCTTCCCTCGTTTGATTTCC  13845
+
+LR732138.1      2531 --------------------------------------------------   2530
+                                                                       
+JAHYSF0100006  13846 CGTGCCTTGCGGCAGGACACAAAGCGGGTCATGACCTCCTGGGATAAGTT  13895
+
+LR732138.1      2531 -----GGAGC---------TACT----------------------CTC--   2542
+                          |||||         ||||                      |||  
+JAHYSF0100006  13896 GTTTTGGAGCGGCTCCCTGTACTTGGATGGTAGCATTTTGACCTGCTCGT  13945
+
+LR732138.1      2543 --------------------------------------------------   2542
+                                                                       
+JAHYSF0100006  13946 AGGTGTTGAAGGTCTCACCACCGTTTCTCCGCATCTCCTGGAGATCCGCG  13995
+
+LR732138.1      2543 ---------------AGGCTGCATGT------------------------   2553
+                                    |.||||.||||                        
+JAHYSF0100006  13996 ATACAATTGGTCTGAACGCTGTATGTGCTGTCGTTGATAAGCTTTCTCAG  14045
+
+LR732138.1      2554 --AAGTGGTGGG---------GGTGG---------------------GAG   2571
+                       ||||..||.|         .||||                     |||
+JAHYSF0100006  14046 CCAAGTTATGAGCTTTTCAAACGTGGCCTCCTTCACTCCCCGGACAAGAG  14095
+
+LR732138.1      2572 --------TGTG----------------GAGGA-----------------   2580
+                             ||||                |||||                 
+JAHYSF0100006  14096 GGATCTCCTGTGCTCGTTCACCACCTAAGAGGACGTTGAAGGTCCGTGAG  14145
+
+LR732138.1      2581 --------------------------------------------------   2580
+                                                                       
+JAHYSF0100006  14146 AACACGTACCCCGACCCTTCCGAGGCGTGTCGCAAGGTGCGCTGCAAAAA  14195
+
+LR732138.1      2581 -----------GCTCAGCAAC-----------------------------   2590
+                                ||||..||||                             
+JAHYSF0100006  14196 TTTTTCGTAATGCTCCTCAACGAAGTTTGGGTTCATCAGCACGTTGCTCG  14245
+
+LR732138.1      2591 ------------------CCTGT---ACTTCCTCTTGT---CCC------   2610
+                                       .||||   ||||..|.||||   |||      
+JAHYSF0100006  14246 CGAGGTAGTTTTCCACGATCTGTCGAACTTGGTGTTGTTTACCCTGCCTC  14295
+
+LR732138.1      2611 -----------ATGTCTCC-------------------------------   2618
+                                |||.||||                               
+JAHYSF0100006  14296 GAAGCTGCATTATGACTCCTAGAAGCTGCTCACAGTACCGCATCACCAAC  14345
+
+LR732138.1      2619 ---------------TGCGGGCTCT-------------------------   2628
+                                    ||||||.|.|                         
+JAHYSF0100006  14346 TGCAGCACGTTCTGGTGCGGGATGTAAAATGTGTGGAGTGAGTAAGAGGC  14395
+
+LR732138.1      2629 --------GACCA----------TGTCC----------------------   2638
+                             .||||          |||||                      
+JAHYSF0100006  14396 GTGGATAGCACCAGCCAGCTGGTTGTCCCTCGTTTCGCCGACTCCGTTTG  14445
+
+LR732138.1      2639 ------------------TGTTT-----------------------TTGT   2647
+                                       |||||                       ||||
+JAHYSF0100006  14446 CGGCGCGGACGAGTCGAGTGTTTGTCTCCAACGTTCTGGCGTGTGATTGT  14495
+
+LR732138.1      2648 ---------------------TCTAC-----------------CCCAG--   2657
+                                          |||||                 ||.||  
+JAHYSF0100006  14496 ACGCTGGACTTGTGACTCTCATCTACGAAGTATTTGACGAACTCCGAGAA  14545
+
+LR732138.1      2658 --------------------------CCA---------------------   2660
+                                               |||                     
+JAHYSF0100006  14546 GAGAGCGTTGGCGGGATCTTTGGAGTCCACCTGGAAGCTCACTGAGGTCG  14595
+
+LR732138.1      2661 ATGACAGT--------------GCCCAGGGCTCTGAT-------------   2683
+                     |.||| ||              ||||||.||||||.|             
+JAHYSF0100006  14596 ACGAC-GTGTCACTGCTGGGTAGCCCAGTGCTCTGTTCCACCAGGTGGAC  14644
+
+LR732138.1      2684 -----GTGTCT--------------------------------CTCACG-   2695
+                          ||||||                                |||||| 
+JAHYSF0100006  14645 TGGCCGTGTCTTACCTCCCGCGACCTCGCGCACAGACTTGAAGCTCACGC  14694
+
+LR732138.1      2696 --------------------------------------------------   2695
+                                                                       
+JAHYSF0100006  14695 GGTTCAAGACCACCTTGAGACCCTTGGGGTTCATGGACTTCAACATGGCC  14744
+
+LR732138.1      2696 ------------GCTT----------------------------------   2699
+                                 ||||                                  
+JAHYSF0100006  14745 CTCACTTCGGACGCTTTGCCGCTGCGACACTGGACGAGTCCCAGCCCCGG  14794
+
+LR732138.1      2700 --------------------GAA--------------AAGG---------   2706
+                                         |||              ||||         
+JAHYSF0100006  14795 CAATAGCTCCACAGACTTCAGAAGACCCGTCTTTTTCAAGGCGGCGAAAT  14844
+
+LR732138.1      2707 ------------------TGA-----------------------------   2709
+                                       |||                             
+JAHYSF0100006  14845 CCAGCCCCTCGCAGGACTTGAGCACCTGCTCGTGGGTCGGCCACAGATCG  14894
+
+LR732138.1      2710 --------------------------------------------------   2709
+                                                                       
+JAHYSF0100006  14895 CTGGTACGGCTCATAACGATGTCCACGTGTTGCTGAATATCTTTCTCGTG  14944
+
+LR732138.1      2710 --------------------------------------------------   2709
+                                                                       
+JAHYSF0100006  14945 GCCCCAGCCGTCGTTCTTGACGTGGTCCAGCCTCTCCTTCAGGAACTGCA  14994
+
+LR732138.1      2710 ---------------------------------------GATTTTT----   2716
+                                                            |||||||    
+JAHYSF0100006  14995 GCTTTAAAACCTCGAAGAACACCTTACTCATCTTCGGCGGATTTTTCGCT  15044
+
+LR732138.1      2717 --------------------------------------------------   2716
+                                                                       
+JAHYSF0100006  15045 CTGTTAACAATCTGTGCTATCGACTTCTTGACGGCTTTCTCCGTGCCCTC  15094
+
+LR732138.1      2717 --------------GGG---------------------------------   2719
+                                   |||                                 
+JAHYSF0100006  15095 CACGTCCAGCACGAGGGAGCCATTGAATCCCGATAACTTCAGCCCTTCTG  15144
+
+LR732138.1      2720 -----------GT-------------------------------------   2721
+                                ||                                     
+JAHYSF0100006  15145 ACACCTCCACCGTGGGCCACTGAAACTCTATGTTGTTGAGCACATGTTGG  15194
+
+LR732138.1      2722 --------------------------------------------------   2721
+                                                                       
+JAHYSF0100006  15195 CGATCGTCAGACTCGATCGCGCTGGCCTTTCCCAGCAGCAGTTGTCGCGC  15244
+
+LR732138.1      2722 --------CTAGAA-----------------------------------T   2728
+                             ||||||                                   |
+JAHYSF0100006  15245 GATATAAGCTAGAAATAGCGCAGAGCCGTCAGATGGCTTGTGCATCAGCT  15294
+
+LR732138.1      2729 GGGG----------------------------------------------   2732
+                     |.||                                              
+JAHYSF0100006  15295 GCGGTGCACGGAGCACGAGCTTCATCTTGACCTTCTCAGCATCCTTCGAC  15344
+
+LR732138.1      2733 --------------GGCG--------------------------------   2736
+                                   ||||                                
+JAHYSF0100006  15345 TCCAGCGAATAGAAGGCGCCCCACGGCAGGTCCATGCGTTTGGCCCCCTT  15394
+
+LR732138.1      2737 -----------------------------------------GGG------   2739
+                                                              |||      
+JAHYSF0100006  15395 GCTGGCCTGCTTGTTCACTCTTGCCAACGTGCCCGCCGTCAGGGAGCCCG  15444
+
+LR732138.1      2740 --------------------------------------------------   2739
+                                                                       
+JAHYSF0100006  15445 ACTTAGCCTTCAAAGTCTGCACTCGGTGCACGGCACGTCGCGCTTGCAGG  15494
+
+LR732138.1      2740 ------GGG-----------------------------------------   2742
+                           |||                                         
+JAHYSF0100006  15495 CGGTTTGGGTCGCCGACGCCCTTGACGTCGTCTATCGATCCAGCTACGCG  15544
+
+LR732138.1      2743 ---------------------------------------------CAGAG   2747
+                                                                  |||||
+JAHYSF0100006  15545 GCGATTAACACGATCCAAGGAGTTTGAGCCAGAGGCCGCCTTCTTCAGAG  15594
+
+LR732138.1      2748 GGG--------AAAGGCCTGGGT---------------------------   2762
+                     .||        ||||..||.|||                           
+JAHYSF0100006  15595 AGGTCTTCCTCAAAGTGCTAGGTGCCGTCTTCAAAGACCCGTGCACCTTC  15644
+
+LR732138.1      2763 ---------------------------AAT--------------------   2765
+                                                |||                    
+JAHYSF0100006  15645 CCCAAAGAGCTAGGCGCCGTCTTCAAAAATCCGTGCGCCTTCTTTAGGGA  15694
+
+LR732138.1      2766 ---GGAG-------------------------------------------   2769
+                        ||||                                           
+JAHYSF0100006  15695 TCCGGAGGCCTTCCCCAAAGAGCTAGGCGCCCTCTTCAAAGACCCGTGGG  15744
+
+LR732138.1      2770 -ATTCTTT------------------------------------------   2776
+                      .||||||                                          
+JAHYSF0100006  15745 CCTTCTTTAGGGATCCGGAGGCCTTCCTCAAAGAGCTAGGCGCTGTCTTC  15794
+
+LR732138.1      2777 --------------------------------------------------   2776
+                                                                       
+JAHYSF0100006  15795 AAAGATCCGTGGGTCTTCTTAAGGTATCCAGCCCCTTTAAGAGAACCAGC  15844
+
+LR732138.1      2777 --------------------------------GATTGT------------   2782
+                                                     |||.||            
+JAHYSF0100006  15845 CCTCTTTAAGGAACCCGGCGGCAGCCCAGCTGGATGGTCCTTGGCTCTGT  15894
+
+LR732138.1      2783 --------------------------------------------------   2782
+                                                                       
+JAHYSF0100006  15895 CCGCCTCCCGATCGCGCAGCGGAGCCAATGATGCCGCACCCAGAAGTAAC  15944
+
+LR732138.1      2783 -----------------------------AACGTTTCGAGTGTGTGGT--   2801
+                                                  |||| ||.|.||.||||.|  
+JAHYSF0100006  15945 GAGGCGACGGGAAACGAATCATTCAGACGAACG-TTGGCGTCTGTGATGT  15993
+
+LR732138.1      2802 ------------------------------------GGCTGTTCAGAG--   2813
+                                                         ||||.|||||||  
+JAHYSF0100006  15994 GGGGACAACGAACTTACACATGCGAAAACGATAATAGGCTATTCAGAGCA  16043
+
+LR732138.1      2814 -------------TGTCATC----------------ACTTACC-------   2827
+                                  .|.||||                ||..|||       
+JAHYSF0100006  16044 GCCCCGTCAAACCAGGCATCTATAGAGTATCGGTGTACAGACCTTTGTAA  16093
+
+LR732138.1      2828 -----------ATGAC---------TGA----------------------   2835
+                                |||||         |||                      
+JAHYSF0100006  16094 GTTGTTCACGAATGACAAAATCATATGAGCAGTGGGATGTCGTTCAGGTC  16143
+
+LR732138.1      2836 CTTGA---------ATTT-------------TTTTGTTCA----------   2853
+                     |.|||         ||||             ||.||.|||          
+JAHYSF0100006  16144 CATGACCCGGCAGTATTTGCACTCTTGAGGGTTGTGCTCAGGGTGGATCT  16193
+
+LR732138.1      2854 --------------------------------------------------   2853
+                                                                       
+JAHYSF0100006  16194 CGCAGCCCAGCGTTCCTGCCAGTCCCCCAACGGCCGGCCCAAGCGGCGAC  16243
+
+LR732138.1      2854 --------------------------------------------------   2853
+                                                                       
+JAHYSF0100006  16244 CTGCGCGGCGAGGTCGGGGCGTCCTGGAGGTCGCGGATGTAGTCCTTGTC  16293
+
+LR732138.1      2854 --------------------------------------------------   2853
+                                                                       
+JAHYSF0100006  16294 CGCAGGGCAAGCGTAGCAAATCTCAGGAGCGGGATGCTCATCAATGTGCT  16343
+
+LR732138.1      2854 ----------------------TGACTTGT--------------------   2861
+                                           ||.|||||                    
+JAHYSF0100006  16344 CGGGATGTCGATGAGGCACGACTGGCTTGTCCTCCTCAACAGCCAAATAT  16393
+
+LR732138.1      2862 -------------------TTTCTGT---------AGCC-TGA-----GA   2877
+                                        ||||.||         |||| |||     ||
+JAHYSF0100006  16394 TCCACCACTTCGGGAAGACTTTCCGTGTCGTCTTCAGCCGTGATCTTCGA  16443
+
+LR732138.1      2878 --------------------------------------------CAATTG   2883
+                                                                 |.|||.
+JAHYSF0100006  16444 TTCGGGCGGCATATCGATCACCGGCGGTTCCACTTGGTCCTCCGCCATTT  16493
+
+LR732138.1      2884 TC-----------------TTGTG---------------------   2890
+                     ||                 ||.||                     
+JAHYSF0100006  16494 TCGAAGGATGCATATCGCTTTTTGGATCCATCTCGAATGCAGTCA  16538
+
+
+#---------------------------------------
+#---------------------------------------
